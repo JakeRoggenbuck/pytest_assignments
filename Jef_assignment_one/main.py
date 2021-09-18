@@ -18,7 +18,7 @@ def get_fish_type(scale_count: int, fin_count: int, head_count: int):
         if head_count == 4:
             return FishType.Shark
 
-    if fin_count == None:
+    if fin_count == 0:
         return FishType.SwordFish
 
     if head_count % 2 == 0:
